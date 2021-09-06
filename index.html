@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Multiple Time Task</title>
+    </head>
+    <body>
+        <script src="./app/index.js"></script>
+        <style>
+            /* Sticky footer styles
+            -------------------------------------------------- */
+            html {
+              position: relative;
+              min-height: 100%;
+            }
+            body {
+              /* Margin bottom by footer height */
+              margin-bottom: 60px;
+            }
+            .footer {
+              position: absolute;
+              bottom: 0;
+              width: 100%;
+              /* Set the fixed height of the footer here */
+              height: 60px;
+              line-height: 60px; /* Vertically center the text there */
+              background-color: #f5f5f5;
+            }
+
+            /* Custom page CSS
+            -------------------------------------------------- */
+            /* Not required for template or sticky footer method. */
+
+            body > .container {
+              padding: 60px 15px 0;
+            }
+
+            .footer > .container {
+              padding-right: 15px;
+              padding-left: 15px;
+            }
+
+            code {
+              font-size: 80%;
+            }
+
+            .row {
+                padding-top: 25px;
+            }
+        </style>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="#">Multiple Time Task</a>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+            </div>
+            </nav>
+        </header>
+
+        <main id="grid" role="main" class="container">
+            <div class="row">
+                <div class="col-sm" id="time-one">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">1#</span>
+                         </div>
+                         <input type="text" class="form-control" placeholder="Title" aria-label="Title" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="values">00:00:00.0</div>
+                    <div>
+                        <button type="button" class="btn btn-primary startButton">Start</button>
+                        <button type="button" class="btn btn-warning pauseButton" >Pause</button>
+                        <button type="button" class="btn btn-dark stopButton">Stop</button>
+                        <button type="button" class="btn btn-danger resetButton">Reset</button>
+                    </div>
+                </div>
+
+                <div class="col-sm" id="time-two">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">2#</span>
+                         </div>
+                         <input type="text" class="form-control" placeholder="Title" aria-label="Title" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="values">00:00:00.0</div>
+                    <div>
+                        <button type="button" class="btn btn-primary startButton">Start</button>
+                        <button type="button" class="btn btn-warning pauseButton" >Pause</button>
+                        <button type="button" class="btn btn-dark stopButton">Stop</button>
+                        <button type="button" class="btn btn-danger resetButton">Reset</button>
+                    </div>
+                </div>
+
+                <div class="col-sm" id="time-three">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">3#</span>
+                         </div>
+                         <input type="text" class="form-control" placeholder="Title" aria-label="Title" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="values">00:00:00.0</div>
+                    <div>
+                        <button type="button" class="btn btn-primary startButton">Start</button>
+                        <button type="button" class="btn btn-warning pauseButton" >Pause</button>
+                        <button type="button" class="btn btn-dark stopButton">Stop</button>
+                        <button type="button" class="btn btn-danger resetButton">Reset</button>
+                    </div>
+                </div>
+            <div>
+
+            <div class="row">
+                <div class="col-sm" id="time-four">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">4#</span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Title" aria-label="Title" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="values">00:00:00:0</div>
+                    <div>
+                        <button type="button" class="btn btn-primary startButton">Start</button>
+                        <button type="button" class="btn btn-warning pauseButton" >Pause</button>
+                        <button type="button" class="btn btn-dark stopButton">Stop</button>
+                        <button type="button" class="btn btn-danger resetButton">Reset</button>
+                    </div>
+                </div>
+                <div class="col-sm" id="time-five">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">5#</span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Title" aria-label="Title" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="values">00:00:00:0</div>
+                    <div>
+                        <button type="button" class="btn btn-primary startButton">Start</button>
+                        <button type="button" class="btn btn-warning pauseButton" >Pause</button>
+                        <button type="button" class="btn btn-dark stopButton">Stop</button>
+                        <button type="button" class="btn btn-danger resetButton">Reset</button>
+                    </div>
+                </div>
+                <div class="col-sm" id="time-six">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">6#</span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Title" aria-label="Title" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="values">00:00:00:0</div>
+                    <div>
+                        <button type="button" class="btn btn-primary startButton">Start</button>
+                        <button type="button" class="btn btn-warning pauseButton" >Pause</button>
+                        <button type="button" class="btn btn-dark stopButton">Stop</button>
+                        <button type="button" class="btn btn-danger resetButton">Reset</button>
+                    </div>
+                </div>
+            <div>
+        </main>
+
+        <footer class="footer">
+          <div class="container">
+            <span class="text-muted">I hope this has have helpful...</span>
+          </div>
+        </footer>
+    </body>
+</html>
