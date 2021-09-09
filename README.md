@@ -30,4 +30,4 @@ jQuery is a fast, small, and feature-rich JavaScript library. It makes things li
 Execute: `parcel index.html`
 
 ## Screen
-![alt text](./img/example_screen.png "Title")
+![Example Screen](./img/example_screen.png "Example Screen")
